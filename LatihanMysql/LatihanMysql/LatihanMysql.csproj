@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A8711B60-A9BE-4560-9B92-84CDC392C2FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LatihanMysql</RootNamespace>
+    <AssemblyName>LatihanMysql</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CekKendaraan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CekKendaraan.Designer.cs">
+      <DependentUpon>CekKendaraan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPetugas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPetugas.Designer.cs">
+      <DependentUpon>DataPetugas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JenisKendaraan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JenisKendaraan.Designer.cs">
+      <DependentUpon>JenisKendaraan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KendaraanMasuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KendaraanMasuk.Designer.cs">
+      <DependentUpon>KendaraanMasuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KendaraanKeluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KendaraanKeluar.Designer.cs">
+      <DependentUpon>KendaraanKeluar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginAdmin.Designer.cs">
+      <DependentUpon>loginAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginPetugas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginPetugas.Designer.cs">
+      <DependentUpon>loginPetugas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPetugas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPetugas.Designer.cs">
+      <DependentUpon>MenuPetugas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdmin.Designer.cs">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MysqlDB.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SuratHilang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuratHilang.Designer.cs">
+      <DependentUpon>SuratHilang.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CekKendaraan.resx">
+      <DependentUpon>CekKendaraan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPetugas.resx">
+      <DependentUpon>DataPetugas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JenisKendaraan.resx">
+      <DependentUpon>JenisKendaraan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KendaraanMasuk.resx">
+      <DependentUpon>KendaraanMasuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KendaraanKeluar.resx">
+      <DependentUpon>KendaraanKeluar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginAdmin.resx">
+      <DependentUpon>loginAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginPetugas.resx">
+      <DependentUpon>loginPetugas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPetugas.resx">
+      <DependentUpon>MenuPetugas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdmin.resx">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SuratHilang.resx">
+      <DependentUpon>SuratHilang.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\698873-icon-136-document-edit-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58db860a4b5d7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58db860a4b5d7-min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58db860a4b5d7-min1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enough.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\add1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

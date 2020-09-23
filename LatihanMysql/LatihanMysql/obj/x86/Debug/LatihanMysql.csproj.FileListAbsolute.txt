@@ -1,0 +1,38 @@
+C:\Users\Intan Muliawati\documents\visual studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.csprojResolveAssemblyReference.cache
+C:\Users\Intan Muliawati\documents\visual studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.Form1.resources
+C:\Users\Intan Muliawati\documents\visual studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.Properties.Resources.resources
+C:\Users\Intan Muliawati\documents\visual studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.csproj.GenerateResource.Cache
+C:\Users\Intan Muliawati\documents\visual studio 2010\Projects\LatihanMysql\LatihanMysql\bin\Debug\LatihanMysql.exe
+C:\Users\Intan Muliawati\documents\visual studio 2010\Projects\LatihanMysql\LatihanMysql\bin\Debug\LatihanMysql.pdb
+C:\Users\Intan Muliawati\documents\visual studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.exe
+C:\Users\Intan Muliawati\documents\visual studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.pdb
+F:\Visual Studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.exe
+F:\Visual Studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.pdb
+F:\Visual Studio 2010\Projects\LatihanMysql\LatihanMysql\bin\Debug\LatihanMysql.exe
+F:\Visual Studio 2010\Projects\LatihanMysql\LatihanMysql\bin\Debug\LatihanMysql.pdb
+F:\Visual Studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.akurasi.resources
+F:\Visual Studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.Form1.resources
+F:\Visual Studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.Properties.Resources.resources
+F:\Visual Studio 2010\Projects\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.csproj.GenerateResource.Cache
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.exe
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.pdb
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.csprojResolveAssemblyReference.cache
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.Properties.Resources.resources
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.csproj.GenerateResource.Cache
+F:\program parkir 2\LatihanMysql\LatihanMysql\bin\Debug\LatihanMysql.exe
+F:\program parkir 2\LatihanMysql\LatihanMysql\bin\Debug\LatihanMysql.pdb
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.Jenis_Kendaraan.resources
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.Kendaraan_Masuk.resources
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.loginpetugas.resources
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.loginadmin.resources
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.menuadmin.resources
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.Data_kendaraan_belum_keluar.resources
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.SuratHilang.resources
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.DataPetugas.resources
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.KendaraanKeluar.resources
+F:\program parkir\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.exe
+F:\program parkir\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.pdb
+F:\program parkir 2\LatihanMysql\LatihanMysql\bin\Debug\MetroFramework.dll
+F:\program parkir 2\LatihanMysql\LatihanMysql\bin\Debug\MetroFramework.Fonts.dll
+F:\program parkir 2\LatihanMysql\LatihanMysql\obj\x86\Debug\LatihanMysql.MenuPetugas.resources
